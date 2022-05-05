@@ -6,6 +6,12 @@ def add(x, y):
     #   used to document the function.
     return x + y
 
+def sub(x, y):
+    """
+        Returns the diff between x and y
+        """
+    return x - y
+
 
 if __name__ == "__main__":
     # Read input from user, convert to int
