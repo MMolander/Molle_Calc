@@ -12,6 +12,26 @@ def sub(x, y):
         """
     return x - y
 
+def mul(x, y):
+    """
+    Returns the multiple of x times y.
+    """
+    return x * y
+
+
+def div(x, y):
+    """
+    Divide x by y
+
+    Args:
+        x: number to divide
+        y: number to divide by
+
+    Returns: Divided value
+    """
+    return x/y
+
+
 
 if __name__ == "__main__":
     # Read input from user, convert to int
